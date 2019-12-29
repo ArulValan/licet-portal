@@ -9,6 +9,7 @@ module.exports = function (router) {
                 result.setFailedStatus(err || "User not found");
             } else {
                 result.setContext(doc);
+                result.sendAuthToken(doc);
             }
             res.json(result.json());
         });

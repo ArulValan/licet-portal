@@ -7,5 +7,10 @@
     "deploy": ""
   },
   "author": "Mahadeer Mohamed",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "npm": "^6.13.4"
+  }
 }
